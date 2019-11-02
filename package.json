@@ -1,0 +1,39 @@
+{
+  "name": "amw",
+  "version": "1.0.0",
+  "keywords": [
+    "dependency",
+    "injection",
+    "container",
+    "module",
+    "wiring"
+  ],
+  "description": "Another module wiring, a simple DI container",
+  "main": "index.js",
+  "engine": {
+    "node": ">=8.11.4",
+    "npm": ">=5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gundour/amw"
+  },
+  "author": "Mohamed Gundour <gundour>",
+  "license": "ISC",
+  "scripts": {
+    "test": "mocha ./test/ --recursive --timeout=60000 --exit",
+    "coverage": "nyc npm test",
+    "lint": "eslint ./lib/ ./test/ ./index.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.6.0",
+    "mocha": "^6.2.2",
+    "npm-check": "^5.9.0",
+    "nyc": "^14.1.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "parse-fn-args": "^1.0.1"
+  }
+}
