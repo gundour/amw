@@ -23,11 +23,13 @@
   "scripts": {
     "test": "mocha ./test/ --recursive --timeout=60000 --exit",
     "coverage": "nyc npm test",
-    "lint": "eslint ./lib/ ./test/ ./index.js"
+    "lint": "./node_modules/.bin/eslint ./lib/ ./test/ ./index.js",
+    "doc": "./node_modules/.bin/jsdoc -d ./jsdoc -R ./README.md ."
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^6.6.0",
+    "jsdoc": "^3.6.3",
     "mocha": "^6.2.2",
     "npm-check": "^5.9.0",
     "nyc": "^14.1.1"
