@@ -1,8 +1,10 @@
+![npm](https://img.shields.io/npm/v/amw?style=plastic)
+
 # AMW - Another Module Wiring
 
 Smart module wiring using dependency injection container
 
-This library can be used as a framework for your modern java script projects.
+This library can be used as a framework for your modern javascript projects.
 
 ## Installation
 
