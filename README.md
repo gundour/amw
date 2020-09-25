@@ -1,8 +1,10 @@
-![npm](https://img.shields.io/npm/v/amw?style=plastic)
-
-# AMW - Another Module Wiring
-
-Smart module wiring using dependency injection container
+<h1 align="center" style="border-bottom: none;">AMW - Another Module Wiring</h1>
+<h2 align="center">Smart module wiring using dependency injection container</h2>
+<p align="center">
+    <a href="https://www.npmjs.com/package/amw">
+        <img alt="npm" src="https://img.shields.io/npm/v/amw?style=plastic">
+    </a>
+</p>
 
 This library can be used as a framework for your modern javascript projects.
 
