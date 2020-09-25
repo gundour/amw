@@ -1,6 +1,6 @@
 {
   "name": "amw",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "keywords": [
     "dependency",
     "injection",
@@ -24,18 +24,20 @@
     "test": "mocha ./test/ --recursive --timeout=60000 --exit",
     "coverage": "nyc npm test",
     "lint": "./node_modules/.bin/eslint ./lib/ ./test/ ./index.js",
-    "doc": "./node_modules/.bin/jsdoc -d ./jsdoc -R ./README.md ."
+    "doc": "./node_modules/.bin/jsdoc -d ./jsdoc -R ./README.md .",
+    "check": "npm-check"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "eslint": "^6.6.0",
-    "jsdoc": "^3.6.3",
-    "mocha": "^6.2.2",
-    "npm-check": "^5.9.0",
-    "nyc": "^14.1.1"
+    "eslint": "^7.9.0",
+    "jsdoc": "^3.6.6",
+    "jsdoc-to-markdown": "^6.0.1",
+    "mocha": "^8.1.3",
+    "npm-check": "^5.9.2",
+    "nyc": "^15.1.0"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "parse-fn-args": "^1.0.1"
   }
 }
